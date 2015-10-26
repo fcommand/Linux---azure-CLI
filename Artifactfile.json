@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
+  "description": "Install Node.js and latest Azure CLI on Linux CENTOS",
+  "iconUri": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/Artifacts/linux-azure-cli/vmartifact.png",
+  "runCommand": {
+    "commandToExecute": "['sh linux_azure_cli_v1.sh']"
+  },
+  "tags": [
+    "Node",
+    "Linux",
+    "Azure CLI"
+  ],
+  "targetOsType": "Linux",
+  "title": "Azure CLI On LINUX CENTOS"
+}
